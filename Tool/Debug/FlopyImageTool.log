@@ -1,0 +1,31 @@
+﻿生成启动时间为 2014/3/17 22:46:14。
+     1>项目“C:\Users\Administrator\Desktop\Tool\FlopyImageTool.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/FlopyImageTool.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/FlopyImageTool.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt FlopyImageTool.cpp FlopyImageToolDlg.cpp
+         FlopyImageTool.cpp
+     1>c:\users\administrator\desktop\tool\flopyimagetool.cpp(68): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(5361) : 参见“CWinApp::Enable3dControls”的声明
+         FlopyImageToolDlg.cpp
+     1>c:\users\administrator\desktop\tool\flopyimagetooldlg.cpp(297): warning C4244: “初始化”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+     1>c:\users\administrator\desktop\tool\flopyimagetooldlg.cpp(383): warning C4244: “=”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+     1>c:\users\administrator\desktop\tool\flopyimagetooldlg.cpp(532): warning C4244: “初始化”: 从“ULONGLONG”转换到“long”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\FlopyImageTool.res" FlopyImageTool.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/FlopyImageTool.exe" /INCREMENTAL:NO /NOLOGO shlwapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug/FlopyImageTool.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\FlopyImageTool.lib" /MACHINE:X86 /SAFESEH .\Debug\FlopyImageTool.res
+         .\Debug/FlopyImageTool.obj
+         .\Debug/FlopyImageToolDlg.obj
+         .\Debug/StdAfx.obj
+     1>FlopyImageTool.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+         FlopyImageTool.vcxproj -> C:\Users\Administrator\Desktop\Tool\.\Debug\FlopyImageTool.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug\FlopyImageTool.bsc" .\Debug\FlopyImageTool.sbr .\Debug\FlopyImageToolDlg.sbr .\Debug\StdAfx.sbr
+     1>已完成生成项目“C:\Users\Administrator\Desktop\Tool\FlopyImageTool.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.82
